@@ -1,0 +1,55 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  decals: MyString
+  sign: MyString
+  panel_wire: MyString
+  panel_screw: MyString
+  panel_mounted: MyString
+  line_siezure: MyString
+  no_siezure_reason: MyString
+  sensors_programed: MyString
+  sensors_mounted: MyString
+  install_damage: MyString
+  contacts_flush: MyString
+  contacts_hinder: MyString
+  contacts_aligned: MyString
+  motion_loops: MyString
+  motion_height: MyString
+  smokes_vents: MyString
+  smokes_corners: MyString
+  glassbreak_facing: MyString
+  glassbreak_coverage: MyString
+  wires_exposed: MyString
+  wires_stapled: MyString
+  transformer_secured: MyString
+  transformer_excess_wire: MyString
+  transformer_placement: MyString
+  customer_knowledge: MyString
+
+two:
+  decals: MyString
+  sign: MyString
+  panel_wire: MyString
+  panel_screw: MyString
+  panel_mounted: MyString
+  line_siezure: MyString
+  no_siezure_reason: MyString
+  sensors_programed: MyString
+  sensors_mounted: MyString
+  install_damage: MyString
+  contacts_flush: MyString
+  contacts_hinder: MyString
+  contacts_aligned: MyString
+  motion_loops: MyString
+  motion_height: MyString
+  smokes_vents: MyString
+  smokes_corners: MyString
+  glassbreak_facing: MyString
+  glassbreak_coverage: MyString
+  wires_exposed: MyString
+  wires_stapled: MyString
+  transformer_secured: MyString
+  transformer_excess_wire: MyString
+  transformer_placement: MyString
+  customer_knowledge: MyString
