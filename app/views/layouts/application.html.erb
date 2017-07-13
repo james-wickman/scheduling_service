@@ -9,8 +9,26 @@
   </head>
 
   <body>
-       <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
-    <%= yield %>
+
+	<p class="notice"><%= notice %></p>
+	<p class="alert"><%= alert %></p>
+
+	<% if admin_signed_in? %>
+		<%= link_to "index", admin_index_path %>
+		<%= link_to "Edit", edit_admin_registration_path %>
+		<%= link_to "log out", destroy_admin_session_path, method: :delete %>
+		<p>admin</p>
+	<% end %>
+	<% if technician_signed_in? %>
+		<%= link_to "index", technician_index_path %>
+		<%= link_to "log out", destroy_technician_session_path, method: :delete %>
+		<p>technician</p>
+	<% end %>
+	<% if scheduler_signed_in? %>
+		<%= link_to "index", scheduling_index_path %>
+		<%= link_to "log out", destroy_scheduler_session_path, method: :delete %>
+		<p>scheduler</p>
+	<% end %>
+  	<%= yield %>
   </body>
 </html>

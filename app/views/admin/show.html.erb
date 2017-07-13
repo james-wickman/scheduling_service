@@ -1,2 +1,11 @@
-<h1>Admin#show</h1>
-<p>Find me in app/views/admin/show.html.erb</p>
+
+
+
+<%= button_to(new_admin_registration_path, class: "home_page_buttons", method: :get) do %>
+	Create Admin
+<% end %>
+
+<% @all_admins.each do |admin| %>
+	<p><%= admin.first_name %></p>
+	<p><%= admin.email %></p>
+<% end %>
