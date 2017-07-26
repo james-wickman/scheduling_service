@@ -1,2 +1,41 @@
-<h1>Scheduling#index</h1>
-<p>Find me in app/views/scheduling/index.html.erb</p>
+
+
+
+
+<div class="container-fluid" style="padding: 0px; width: 97.7%; background: grey;">
+	<div class="row home_section">
+		<div class="col-md-6 col-xs-6 border" style="background:white;">
+			<% if @techs %>
+				<h3>
+					techs
+				</h3>
+				<% @techs.each_with_index do |tech, i|   %>
+					<p><%= tech.first_name%> <%= tech.last_name %> </p>
+					<p><%= tech.email %> </p>
+					<r>
+				<% end %>
+			<% end %>
+		</div>
+		<div class="col-md-6 col-xs-6 border" style="background:white;">
+			<h3>
+				open services
+			</h3>
+		</div>
+
+	</div>
+	<hr>
+	<div class="row home_section">
+		<div class="col-md-6 col-xs-6 border" style="background:white;">
+			<h3>
+				map
+			</h3>
+		</div>
+		<div class="col-md-6 col-xs-6 border" style="background:white;">
+			<h3>
+				scheduled services
+			</h3>
+		</div>
+
+	</div>
+	<hr>
+</div>

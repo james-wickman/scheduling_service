@@ -14,6 +14,7 @@ class Technicians::RegistrationsController < Devise::RegistrationsController
 
   # GET /resource/edit
   def edit
+    p params
     super
   end
 

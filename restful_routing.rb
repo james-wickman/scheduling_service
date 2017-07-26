@@ -3,6 +3,7 @@
                technician_show GET    /technician/show(.:format)           technician#show
                    admin_index GET    /admin/index(.:format)               admin#index
                     admin_show GET    /admin/show(.:format)                admin#show
+                scheduling_map GET    /scheduling/map(.:format)            scheduling#map
               scheduling_index GET    /scheduling/index(.:format)          scheduling#index
                scheduling_show GET    /scheduling/show(.:format)           scheduling#show
              new_admin_session GET    /admins/sign_in(.:format)            admins/sessions#new
